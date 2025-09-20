@@ -1,6 +1,6 @@
-# YouTube動画ダウンロードスクリプト
+# YT動画ダウンロードスクリプト
 
-YouTubeの動画をMP4形式でダウンロードするためのPythonスクリプトです。`yt-dlp` と `ffmpeg` を利用しています。
+YTの動画をMP4形式で、または音声をMP3でダウンロードするためのPythonスクリプトです。`yt-dlp` と `ffmpeg` を利用しています。
 
 ---
 
@@ -19,7 +19,10 @@ YouTubeの動画をMP4形式でダウンロードするためのPythonスクリ�
 
 ### 基本コマンド
 
-python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)"
+    ```bash
+    python yt2mp3_ytdlp.py "https://www.youtube.com/watch?v=xxxx"
+    python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)"
+    ```
 
 引数 "https://www.youtube.com/watch?v=xxxx" はダウンロードしたいYouTube動画のURLに置き換えてください。
 
