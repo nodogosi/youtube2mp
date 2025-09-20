@@ -19,10 +19,9 @@ YTの動画をMP4形式で、または音声をMP3でダウンロードするた
 
 ### 基本コマンド
 
-    ```bash
     python yt2mp3_ytdlp.py "https://www.youtube.com/watch?v=xxxx"
+
     python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)"
-    ```
 
 引数 "https://www.youtube.com/watch?v=xxxx" はダウンロードしたいYouTube動画のURLに置き換えてください。
 
@@ -33,20 +32,20 @@ YTの動画をMP4形式で、または音声をMP3でダウンロードするた
 -f <ファイル名>	出力ファイル名を指定できます。 例: -f myvideo.mp4
 
 ### 例
-デフォルト設定でダウンロード
+-   デフォルト設定でダウンロード
 
-python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)"
-スクリプトの downloads フォルダに保存されます。
+    python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)"
+    スクリプトの downloads フォルダに保存されます。
 
-出力先フォルダを指定
+-   出力先フォルダを指定
 
-python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" -o "C:\\Videos"
-出力ファイル名を指定
+    python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" -o "C:\\Videos"
+-   出力ファイル名を指定
 
-python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" -f "myvideo.mp4"
-別の場所にある ffmpeg を使用
+    python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" -f "myvideo.mp4"
+-   別の場所にある ffmpeg を使用
 
-python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" --ffmpeg "D:\\tools\\ffmpeg\\bin"
+    python yt2mp4_ytdlp.py "[https://www.youtube.com/watch?v=xxxx](https://www.youtube.com/watch?v=xxxx)" --ffmpeg "D:\\tools\\ffmpeg\\bin"
 ## ⚠️ 注意事項
 著作権に注意し、権利のある動画のみダウンロードしてください。
 
